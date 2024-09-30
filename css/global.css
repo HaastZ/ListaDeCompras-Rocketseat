@@ -35,3 +35,7 @@ a:hover {
 ul {
     list-style: none;
 }
+
+.remover {
+    display: none;
+}
