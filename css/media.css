@@ -1,0 +1,27 @@
+@media ( width <= 37.5rem) {
+    .title {
+        margin-left: 2rem;
+    }
+
+    main {
+        margin-left: 2rem;
+        
+        & .gap {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        & input:nth-child(1) {
+            width: 20rem;
+        }
+
+        & input:nth-child(2) {
+            width: 20rem;
+        }
+    }
+
+    ul {
+        width: 20rem;
+    }
+}
