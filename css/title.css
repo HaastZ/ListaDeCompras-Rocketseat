@@ -1,0 +1,12 @@
+.title {
+    margin-left: 22.8rem;
+    margin-top: 3.875rem;
+
+    & h1 {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        margin-top: 1rem;
+    }
+}
